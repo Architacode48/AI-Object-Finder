@@ -1,0 +1,90 @@
+body{
+    background-size:cover;
+    background-position:center;
+}
+.header{
+    font-family: 'Homemade Apple', cursive;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px 	violet, 0 0 40px 	violet, 0 0 50px 	violet, 0 0 60px 	violet, 0 0 70px 	violet;
+        
+    }
+  }
+
+.object_finder_input{
+    width:300px;
+    text-align: center;
+    background-color: transparent;
+    color:white;
+    border:2px white solid;
+    font-weight:bold;
+    border-radius: 30px;
+}
+
+::placeholder{
+    color:white;
+    font-weight:bold;
+}
+
+.object_finder_input:hover{
+    box-shadow:white 3px 3px 3px;
+    
+}
+
+#status{
+    color:darkblue;
+    font-weight:bold;
+    font-size:25px;
+}
+
+#start{
+    background-color:deepskyblue;
+    border:2px white solid;
+    color:white;
+    font-size:16px;
+    border-radius:40px;
+}
+
+canvas{
+    border-radius:30px;
+    box-shadow: white 10px 10px 10px;
+    margin-top: 40px;
+}
+
+#info{
+    background-color: hotpink;
+    float:bottom;
+    width:100%;
+    position:absolute;
+    bottom:40px;
+    
+}
+
+#info h1{
+    color:white;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    
+}
+.footer{
+    bottom: 0;
+    position:fixed;
+    width:100%;
+    background-color: darkmagenta;
+    color:lavender;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+}
