@@ -10,7 +10,7 @@ objects=[];
         console.log(obj);
     }
     function setup() {
-        canvas = createCanvas(340,380);
+        canvas = createCanvas(340,350);
         canvas.center();
        video= createCapture(VIDEO);
        video.hide();
@@ -34,7 +34,7 @@ objects=[];
     
     function draw()
     {
-        image(video, 0, 0, 380,380);
+        image(video, 0, 0, 340,350);
      if(status != ""){
         archita.detect(video, gotResult);
     
