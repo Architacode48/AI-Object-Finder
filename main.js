@@ -10,7 +10,7 @@ objects=[];
         console.log(obj);
     }
     function setup() {
-        canvas = createCanvas(380,380);
+        canvas = createCanvas(340,380);
         canvas.center();
        video= createCapture(VIDEO);
        video.hide();
